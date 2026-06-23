@@ -1,0 +1,5 @@
+# Convenience profile: run with -Dspring-boot.run.profiles=jpa to flip
+# persistence to H2/JPA.
+app:
+  components:
+    persistence: jpa

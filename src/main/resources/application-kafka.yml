@@ -1,0 +1,5 @@
+# Convenience profile: run with -Dspring-boot.run.profiles=kafka to flip the
+# event-bus component to Kafka.
+app:
+  components:
+    event-bus: kafka

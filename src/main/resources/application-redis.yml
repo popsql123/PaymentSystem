@@ -1,0 +1,5 @@
+# Convenience profile: run with -Dspring-boot.run.profiles=redis (or SPRING_PROFILES_ACTIVE=redis)
+# to flip the cache component to Redis without editing application.yml.
+app:
+  components:
+    cache: redis
